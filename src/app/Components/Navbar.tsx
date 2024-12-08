@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-white border-b border-gray-300 py-4 px-8">
+    <div className="bg-white dark:bg-gray-900 border-b border-gray-300 dark:border-gray-700 py-4 px-8">
       <div className="flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center space-x-4">
@@ -28,29 +28,29 @@ function Navbar() {
         {/* Hamburger Icon for Mobile */}
         <div className="lg:hidden flex items-center">
           <button onClick={toggleMenu}>
-            {isMenuOpen ? <FaTimes className="h-6 w-6 text-gray-700" /> : <FaBars className="h-6 w-6 text-gray-700" />}
+            {isMenuOpen ? <FaTimes className="h-6 w-6 text-gray-700 dark:text-gray-300" /> : <FaBars className="h-6 w-6 text-gray-700 dark:text-gray-300" />}
           </button>
         </div>
 
         {/* Navigation Links for Large Screens */}
         <div className="hidden lg:flex items-center space-x-1 xl:gap-10 2xl:gap-44">
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">New & Featured</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">Men</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">Women</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">Kids</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">Sale</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">SNKRS</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">New & Featured</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Men</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Women</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Kids</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Sale</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">SNKRS</a>
 
           {/* Search Icon inside the Search Bar for Large Screens */}
           <div className="relative">
             <input
               type="text"
               placeholder="Search"
-              className="border border-gray-500 rounded-full py-2 px-4 w-64 pl-10" // Added padding left for space for the icon
+              className="border border-gray-500 dark:border-gray-600 rounded-full py-2 px-4 w-64 pl-10" // Added padding left for space for the icon
             />
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute left-3 top-2.5 text-gray-600 w-4 h-4"
+              className="absolute left-3 top-2.5 text-gray-600 dark:text-gray-300 w-4 h-4"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -67,9 +67,9 @@ function Navbar() {
           {/* Heart Icon for Large Screens */}
           <div className="flex items-center space-x-4">
             {/* Shopping Bag Icon */}
-            <FaShoppingBag className="h-6 w-6 text-gray-700 hover:text-black" />
+            <FaShoppingBag className="h-6 w-6 text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white" />
             {/* Heart Icon */}
-            <FaHeart className="h-6 w-6 text-gray-700 hover:text-black" />
+            <FaHeart className="h-6 w-6 text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white" />
           </div>
         </div>
       </div>
@@ -77,23 +77,23 @@ function Navbar() {
       {/* Mobile Menu Section */}
       {isMenuOpen && (
         <div className="lg:hidden flex flex-col space-y-4 py-4">
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">New & Featured</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">Men</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">Women</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">Kids</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">Sale</a>
-          <a href="#" className="text-gray-700 hover:text-black py-2 px-4 text-sm lg:text-base">SNKRS</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">New & Featured</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Men</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Women</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Kids</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Sale</a>
+          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">SNKRS</a>
 
           {/* Mobile Search Icon */}
           <div className="relative">
             <input
               type="text"
               placeholder="Search"
-              className="border border-gray-600 rounded-full py-2 px-4 w-64 pl-10" // Added padding left for space for the icon
+              className="border border-gray-600 dark:border-gray-500 rounded-full py-2 px-4 w-64 pl-10" // Added padding left for space for the icon
             />
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute left-3 top-2.5 text-gray-500 w-4 h-4"
+              className="absolute left-3 top-2.5 text-gray-500 dark:text-gray-400 w-4 h-4"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -110,9 +110,9 @@ function Navbar() {
           {/* Mobile Heart Icon */}
           <div className="flex items-center space-x-4">
             {/* Heart Icon */}
-            <FaHeart className="h-6 w-6 text-gray-700 hover:text-black" />
+            <FaHeart className="h-6 w-6 text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white" />
             {/* Shopping Bag Icon */}
-            <FaShoppingBag className="h-6 w-6 text-gray-700 hover:text-black" />
+            <FaShoppingBag className="h-6 w-6 text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white" />
           </div>
         </div>
       )}

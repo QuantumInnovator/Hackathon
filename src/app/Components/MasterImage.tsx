@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function MasterImage() {
   return (
-    <div className="w-full mx-auto px-4 mt-10"> {/* Adds margin on sides and padding for responsiveness */}
+    <div className="w-full mx-auto px-4 mt-10 dark:bg-gray-800"> {/* Adds margin on sides and padding for responsiveness, with dark mode background */}
         <Image 
           src="/image1.png" 
           alt="Description of image" 

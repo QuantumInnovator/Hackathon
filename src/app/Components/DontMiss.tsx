@@ -5,10 +5,9 @@ function DontMiss() {
   return (
     <div>
       <div className="text-start mx-auto p-4">
-    
-        <h2 className="text-2xl font-bold">Don't Miss</h2>
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Don't Miss</h2>
       </div>
-      
+
       <div className="flex justify-center items-center">
         <Image
           src="/M2.png" // Path to your image

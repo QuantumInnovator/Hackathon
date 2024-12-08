@@ -4,8 +4,8 @@ import Image from 'next/image'; // Import the Image component from Next.js
 function Featured() {
   return (
     <div>
-      <div className="bg-white h-16 flex items-center justify-between px-10">
-        <h1 className="text-xl font-bold">Featured</h1>
+      <div className="bg-white dark:bg-gray-900 h-16 flex items-center justify-between px-10">
+        <h1 className="text-xl font-bold text-gray-900 dark:text-white ">Featured</h1>
       </div>
 
       {/* Image Section */}
@@ -24,4 +24,5 @@ function Featured() {
 }
 
 export default Featured;
+
 

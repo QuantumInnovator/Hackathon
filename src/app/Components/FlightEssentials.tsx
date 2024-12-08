@@ -4,12 +4,12 @@ import Image from 'next/image';
 function FlightEssentials() {
   return (
     <div>
-      <div className="bg-white">
-        <h2 className="text-2xl font-bold text-start mx-auto p-4">The Essentials</h2>
+      <div className="bg-white dark:bg-gray-900">
+        <h2 className="text-2xl font-bold text-start mx-auto p-4 text-gray-900 dark:text-white">The Essentials</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
           {/* Men's Essentials */}
-          <div className="bg-gray-100 rounded-lg shadow-md relative">
+          <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
             <div className="relative w-full h-72 sm:h-80 lg:h-96">
               <Image
                 src="/Fr1.png" // Path to the image
@@ -21,14 +21,14 @@ function FlightEssentials() {
               />
             </div>
             <button
-              className="absolute bottom-4 right-4 bg-white text-black text-sm font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-gray-100"
+              className="absolute bottom-4 right-4 bg-white dark:bg-gray-700 text-black dark:text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-gray-100 dark:hover:bg-gray-600"
             >
               Men's
             </button>
           </div>
 
           {/* Women's Essentials */}
-          <div className="bg-gray-100 rounded-lg shadow-md relative">
+          <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
             <div className="relative w-full h-72 sm:h-80 lg:h-96">
               <Image
                 src="/Fr2.png"
@@ -40,14 +40,14 @@ function FlightEssentials() {
               />
             </div>
             <button
-              className="absolute bottom-4 right-4 bg-white text-black text-sm font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-gray-100"
+              className="absolute bottom-4 right-4 bg-white dark:bg-gray-700 text-black dark:text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-gray-100 dark:hover:bg-gray-600"
             >
               Women's
             </button>
           </div>
 
           {/* Kids' Essentials */}
-          <div className="bg-gray-100 rounded-lg shadow-md relative">
+          <div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md relative">
             <div className="relative w-full h-72 sm:h-80 lg:h-96">
               <Image
                 src="/Fr3.png"
@@ -59,7 +59,7 @@ function FlightEssentials() {
               />
             </div>
             <button
-              className="absolute bottom-4 right-4 bg-white text-black text-sm font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-gray-100"
+              className="absolute bottom-4 right-4 bg-white dark:bg-gray-700 text-black dark:text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-gray-100 dark:hover:bg-gray-600"
             >
               Kids'
             </button>
