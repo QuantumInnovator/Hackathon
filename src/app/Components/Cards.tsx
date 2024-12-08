@@ -4,7 +4,7 @@ import Image from 'next/image'; // Import Next.js Image component
 function Cards() {
   return (
     <div>
-      <div className="bg-white dark:bg-gray-900 h-16 flex items-center justify-between px-10">
+      <div className="bg-white dark:bg-gray-900 h-16 flex items-center justify-between px-10" id='SNKRS'>
         <h1 className="text-xl font-bold text-gray-900 dark:text-white">Best of Air Max</h1>
         <div className="flex items-center">
           <button className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-sm font-semibold px-4 py-2 rounded-l-md text-gray-900 dark:text-white">Shop</button>
@@ -14,7 +14,7 @@ function Cards() {
         </div>
       </div>
 
-      <div className="bg-gray-100 dark:bg-gray-800">
+      <div className="bg-gray-100 dark:bg-gray-800" >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
           {/* Card 1 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-md">

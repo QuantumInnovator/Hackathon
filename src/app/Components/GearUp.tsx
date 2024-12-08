@@ -4,7 +4,7 @@ import Image from 'next/image';
 function GearUp() {
   return (
     <div>
-      <div className="bg-white dark:bg-gray-900">
+      <div className="bg-white dark:bg-gray-900" id='Sale'>
         <h2 className="text-2xl font-bold p-4 text-gray-900 dark:text-white">Gear Up</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">

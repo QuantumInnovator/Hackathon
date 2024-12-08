@@ -34,12 +34,12 @@ function Navbar() {
 
         {/* Navigation Links for Large Screens */}
         <div className="hidden lg:flex items-center space-x-1 xl:gap-10 2xl:gap-44">
-          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">New & Featured</a>
-          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Men</a>
-          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Women</a>
-          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Kids</a>
-          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Sale</a>
-          <a href="#" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">SNKRS</a>
+          <a href="#New & Featured" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">New & Featured</a>
+          <a href="#Men" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Men</a>
+          <a href="#Women" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Women</a>
+          <a href="#Kids" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Kids</a>
+          <a href="#Sale" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">Sale</a>
+          <a href="#SNKRS" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white py-2 px-4 text-sm lg:text-base">SNKRS</a>
 
           {/* Search Icon inside the Search Bar for Large Screens */}
           <div className="relative">
