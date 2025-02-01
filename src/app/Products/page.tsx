@@ -97,7 +97,7 @@ const ProductCards: React.FC = () => {
 
                                 <Link href={`/Products/${product._id}`} className='text-blue-500 hover:text-blue-700 hover:text-lg transition-all duration-300'> View detail </Link>
                             </div>
-                            {/* Add to Cart Button */}
+                            {/* Add to Cart button */}
                             <button
                                 className="mt-4 w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700"
                                 onClick={() => addToCart(product)}
