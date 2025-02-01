@@ -11,9 +11,9 @@ dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
 
 // Create Sanity client
 const client = createClient({
-  projectId: "z38cmub5",
-  dataset: "production",
-  useCdn: false,
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+  useCdn: true,
   token: "skpCNUKB8gQgSHHc0WVczcJ3seFo9wTD0lCUwIAnvmjcrYZTZxcIMUtkD0ja4tUfETWZEOm2JNwOfgn9WBIy997DdPkp6LZtlvVgH6fl7rjIBP2txbv7la28lT4YrZpL65AtxTk0dxe4yeyNB8YkbWGXKB1xmoIuhZiBMQByBy3LGiVJaKeC",
   apiVersion: '2021-08-31'
 });
